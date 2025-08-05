@@ -1,0 +1,27 @@
+.flashcard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+  }
+  
+  .flashcard-front {
+    font-size: 1.5rem;
+  }
+  
+  .flashcard-back {
+    margin-top: 1rem;
+    color: #555;
+    filter: blur(15px);
+    transition: filter 0.3s ease;
+  }
+  
+  .flashcard-back.visible {
+    filter: none;
+    cursor: default;
+  }
+  
