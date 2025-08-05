@@ -8,7 +8,6 @@ import type { FlashcardModel } from "../models/FlashcardModel";
     const [isBlurred, setIsBlurred] = useState(true);
   
     const handleClick = () => {
-      console.log("Showed card : "+ id );
       const newVal = !isBlurred;
       setIsBlurred(newVal);
     };
